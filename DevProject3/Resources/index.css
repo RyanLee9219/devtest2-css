@@ -1,0 +1,169 @@
+header{
+    position: fixed;
+    width: 100%;
+    background-color: hsla(0,0%,0%,0.9);
+    height: 69px;
+    display: flex;  
+    
+}
+nav{
+    margin-left: auto;
+    padding: 20px;
+    align-items: center;
+    
+}
+nav li{
+    padding-left: 30px;
+    text-decoration: underline;
+    display: inline-block;
+
+}
+
+body{
+    background-color: hsla(0,0%,0%,0.9);
+    font-family: Helvetica;
+    color: seashell;
+}
+
+h2{
+    text-align: center;  
+}
+
+h4{
+    text-align: center;
+}
+
+#logo{
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+.missionimage{
+    background-image: url(/Users/ryanlee/Desktop/codcademy/DevProject3/Resources/images/img-mission-background.jpeg);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.missionbox{
+    background-color: hsla(0,0%,0%,0.7);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.missionstate{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+}
+
+.teaOftheMonth{
+    align-items: center;
+    flex-direction: column;
+}
+
+.menuimages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 60px;
+    padding: 0px 10%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pic{
+    margin: 20px;
+    height: 200px;
+    width: 300px; 
+
+}
+
+.locationimage{
+    margin-top: 85px;
+    width: 92%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-left:  auto;
+    margin-right: auto;
+    background-image: url(/Users/ryanlee/Desktop/codcademy/DevProject3/Resources/images/img-locations-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    
+}
+.locations{
+    margin-bottom: 15px;
+    position: absolute;
+    top: 30%;
+    left: 46%;
+    background-color: transparent;
+}
+
+.brenchcontainer{
+    margin-top: 15px;
+    display: flex;
+    position:absolute;
+    gap: 40px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.brench{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 200px;
+    gap: 8px;
+    padding-bottom: 5px;
+    background-color: hsla(0,0%,0%,0.7);;
+    font-family: Helvetica;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+
+
+.town{
+    margin-bottom: 24px;
+}
+
+.contect {
+    margin: 40px;
+    margin-bottom: 60px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.section4 h1 {
+    margin-bottom: 18px;
+}
+
+.footer {
+    display: flex;
+    text-align: left;
+    gap: 8px;
+}
+
+
+
